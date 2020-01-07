@@ -1,3 +1,5 @@
+# React App Deployment Steps
+
 1. Create empty repository
 
 2. Install the gh-pages package as a "dev-dependency" of the app.
