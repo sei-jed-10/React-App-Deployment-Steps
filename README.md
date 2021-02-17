@@ -12,7 +12,7 @@ $ npm install gh-pages --save-dev
 
 - At the top level, add a homepage property
 ```
-"homepage": "https://pages.git.generalassemb.ly/<Git Hub Username>/<Repo Name>/"
+"homepage": "https://pages.git.generalassemb.ly/<GitHub Username>/<Repo Name>/"
 ```
 - In the existing scripts property, add a predeploy property and a deploy property, each having the values shown below:
 ```
