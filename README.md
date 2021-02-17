@@ -1,6 +1,6 @@
 # React App Deployment Steps
 
-1. Create empty repository
+1. Create an empty repository
 
 2. Install the gh-pages package as a "dev-dependency" of the app.
 ```
@@ -8,11 +8,11 @@ $ cd "Your react app"
 $ npm install gh-pages --save-dev
 ```
 
-3. Add some properties to the app's package.json file.
+3. Add these properties to the app's package.json file.
 
 - At the top level, add a homepage property
 ```
-"homepage": "http://yourgithubName.github.io/repoName"
+"homepage": "https://pages.git.generalassemb.ly/<Git Hub Username>/<Repo Name>/"
 ```
 - In the existing scripts property, add a predeploy property and a deploy property, each having the values shown below:
 ```
@@ -27,7 +27,7 @@ $ npm install gh-pages --save-dev
 $ git init
 ```
 
-5. Add the GitHub repository as a "remote" in your local git repository.
+5. Add "git remote add origin" in your local git repository.
 
 6. Generate a production build of your app, and deploy it to GitHub Pages.
 ```
